@@ -26,6 +26,82 @@ def g2():
    print('The next time you came back to check on her she had alredy commited suicide')
  else:
    print('You continued your journey')
+
+def rb():
+    print('You know of two places where you can send her')
+    a()
+    print('The first place is Oedeon Chapel')
+    print('Its a place owned by a blind creepy looking guy who claims that the place is safe for other people')
+    a()
+    print("The second one is Iosfeka's clinic")
+    print('Its run by a nurse named Iosefka, she seems really nice and she is the one who treated you when you were hurt')
+    a()
+    print('What do you tell her?')
+    print('(1)Go to Oeeon Chapel')
+    print("(2)Go to Iosefka's clinic")
+    print('(3)Stay at home')
+    i=int(input(''))
+    if i==1:
+      print('"Yes, okay! Thank you mister hunter!"')
+      a()
+      print('"I love you almost as much as mum and dad."')
+      a()
+      print('A day later')
+      print('She still isnt in the odeon chape')
+      a()
+      print('You decided to go look for her')
+      a()
+      print("Apparently she left for Odeon Chapel but didn't reach there")
+      a()
+      print('On your way you find a giant pig and next to it a dead body')
+      a()
+      print('The body has the same Red Jeweled Brooch you gave to that girl')
+      a()
+      print('The girl is dead')
+      a()
+      g2()
+ 
+ 
+ 
+    if i==2:
+      print('"Yes, okay! Thank you mister hunter!"')
+      a()
+      print('"I love you almost as much as mum and dad."')
+      print("You go to Iosefka's clinic to meet her")
+      a()
+      print('Iosefka : "Oh, thank goodness you came....Be a dear, find me some more."  ')
+      a()
+      print('You feel like something is not right with Iosfeka')
+      print('Will you break in to meet the girl?')
+      h()
+      j=int(input(''))
+      if j==1:
+        print('You entered the clinic')
+        a()
+        print('You see a woman in white clothes experimenting on a body of an blue alien')
+        a()
+        print('She is Isofeka and tries to kill you')
+        a()
+        print('But you overpower her and kill Isofeka')
+        a()
+        print('But you couldnt find the girl anywhere')
+        a()
+        g2()
+      if j==2:
+        print('You continued your journey')
+        a()
+        g2()
+ 
+ 
+ 
+ 
+    if i==3:
+      print('"Yes, I see. I can wait. I won’t be afraid. I know… I do. The morning always comes."')
+      print('Few days later you come to check on her,')
+      a()
+      print('The lights were closed and the window was broken with some drops of blood')
+      a()
+      print('And she is not there')
  
  
  
@@ -96,7 +172,8 @@ if d==1:
  mg1=str(input('Type "haab" to attack : '))
  if mg1=="haab":
    a()
-   print('Prey slaughtered')
+   print('PREY SLAUGHTERED')
+   a()
    print('You killed Father Gascoigne')
    a()
  else:
@@ -126,81 +203,12 @@ if d==1:
    f=int(input(""))
    if f==1:
      print('Mister hunter? Was it really her? Mummy… mummy… Don’t leave me alone… Mum... Come home... I’m alone… I’m scared… It’s not fair')
+     a()
+     rb()
    if f==2:
      print('"Yes, I see. I can wait. I won’t be afraid. I know… I do. The morning always comes."')
      a()
-     print('You know of two places where you can send her')
-     a()
-     print('The first place is Oedeon Chapel')
-     print('Its a place owned by a blind creepy looking guy who claims that the place is safe for other people')
-     a()
-     print("The second one is Iosfeka's clinic")
-     print('Its run by a nurse named Iosefka, she seems really nice and she is the one who treated you when you were hurt')
-     a()
-     print('What do you tell her?')
-     print('(1)Go to Oeeon Chapel')
-     print("(2)Go to Iosefka's clinic")
-     print('(3)Stay at home')
-     i=int(input(''))
-     if i==1:
-       print('"Yes, okay! Thank you mister hunter!"')
-       a()
-       print('"I love you almost as much as mum and dad."')
-       a()
-       print('A day later')
-       print('She still isnt in the odeon chape')
-       a()
-       print('You decided to go look for her')
-       a()
-       print("Apparently she left for Odeon Chapel but didn't reach there")
-       a()
-       print('On your way you find a giant pig and next to it a dead body')
-       a()
-       print('The body has the same Red Jeweled Brooch you gave to that girl')
-       a()
-       print('The girl is dead')
-       a()
-       g2()
- 
- 
- 
-     if i==2:
-       print('"Yes, okay! Thank you mister hunter!"')
-       a()
-       print('"I love you almost as much as mum and dad."')
-       print("You go to Iosefka's clinic to meet her")
-       a()
-       print('Iosefka : "Oh, thank goodness you came....Be a dear, find me some more."  ')
-       a()
-       print('You feel like something is not rightwith Iosfeka')
-       print('Will you break in to meet the girl?')
-       h()
-       j=int(input(''))
-       if j==1:
-         print('You entered the clinic')
-         a()
-         print('You see a woman in white clothes experimenting on a body of an blue alien')
-         a()
-         print('She is Isofeka and tries to kill you')
-         a()
-         print('But you overpower her and kill Isofeka')
-         a()
-         print('But you couldnt find the girl anywhere')
-         a()
-         g2()
-       if j==0:
-         print('You continued your journey')
- 
- 
- 
- 
-     if i==3:
-        print('"Yes, I see. I can wait. I won’t be afraid. I know… I do. The morning always comes."')
-        print('Few days later you come to check on her,')
-        a()
-        print('The lights were closed and the window was broken with some drops of blood')
-        a()
-        print('And she is not there')
+     rb()
  
  
  if e==2:
@@ -213,6 +221,3 @@ elif d==2:
  print('Gascoigne came charging at you with his axe and killed you')
  a()
  print('YOU DIED')
- 
- 
-
